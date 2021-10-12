@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<!-- Web title -->
+	<title>Penukar mata uang online</title>
+
+	<!-- Web Responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Web SEO -->
+	<meta name="title" content="Penukar mata uang online">
+	<meta name="description" content="Penukar mata uang online gratis">
+
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://vins2106.github.io/penukaruang/">
+	<meta property="og:title" content="Penukar mata uang online">
+	<meta property="og:description" content="Penukar mata uang online gratis">
+	<meta property="og:image" content="./img/logo.png">
+
+	<meta property="twitter:url" content="https://vins2106.github.io/penukaruang/">
+	<meta property="twitter:title" content="Penukar mata uang online">
+	<meta property="twitter:description" content="Penukar mata uang online gratis">
+	<meta property="twitter:image" content="./img/logo.png">
+
+	<!-- Web Style -->
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+
+	<!-- Code -->
+	<noscript>Mohon untuk menyalakan javascript</noscript>
+
+	<h1>Penukar mata uang online</h1>
+
+	<div class="info" id="waktu">
+		<h3>Hasil disini tidak 100% tepat</h3>
+		<small>menutup sendiri dalam <span id="hitungan">10</span></small>
+	</div>
+
+	<div class="container">
+		<div class="box">
+			<div class="box-item loading" id="loading">
+				<h1>Memuat...</h1>
+			</div>			
+			<div class="box-item" id="load">
+				<select id="matauang1" class="select"></select>
+				<br>
+				<input type="number" id="jumlah" class="input" placeholder="masukan jumlah">
+				<h4>Ke</h4>
+				<select id="matauang2" class="select"></select>
+				<br>
+				<button onclick="tukarMataUang()" disabled class="btn" id="tombol">Tukar</button>
+			</div>
+			<div class="box-item" id="load">
+				<input type="text" id="hasil" disabled class="input disabled" placeholder="hasil akan muncul disini">
+			</div>
+		</div>		
+	</div>
+
+	<!-- Script -->
+	<script type="text/javascript" src="https://vins2106.github.io/easy-doc/libs/cdn/v1/index.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+</html>
